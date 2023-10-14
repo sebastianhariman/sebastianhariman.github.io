@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/SH.svg" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Sebastian's Portfolio</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="assets/img/SH.svg" alt="Logo" class="logo-sh">
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <h3 class="nav__name">Sebastian</h3>
+
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About Me</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Projects</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#others" class="nav__link">Other Works</a>
+                    </li>
+                </ul>
+
+                <!-- Close button -->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__buttons">
+                <a href="https://www.linkedin.com/in/sebastianhariman/" target="_blank" class="button__linkedin">
+                    <i class="ri-linkedin-box-fill linkedin" id="linkedin"></i>
+                </a>
+                
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-4-line"></i>
+                </div>
+            </div>
+
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+            <div class="home__container container grid">
+                <h1 class="home__name">
+                    Sebastian Hariman
+                </h1>
+
+                <div class="home__perfil">
+                    <div class="home__image">
+                        <img src="assets/img/Sebastian Hariman.jpg" alt="image" class="home__img">
+                        <div class="home__shadow"></div>
+
+                        <img src="assets/img/curved-arrow.svg" alt="" class="home__arrow">
+                        <img src="assets/img/random-lines.svg" alt="" class="home__line">
+                        
+                        <div class="geometric-box"></div>
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.instagram.com/sebastianhw_" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/sebastianhariman/" target="_blank" class="home__social-link">
+                            <i class="ri-linkedin-box-fill"></i>
+                        </a>
+
+                        <a href="https://github.com/sebastianhariman" target="_blank" class="home__social-link">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="home__info">
+                    <p class="home__description">
+                        <b>Data Science Student</b> with enthusiasm in utilizing data to solve complex problem.
+                    </p>
+
+                    <a href="#about" class="home__scroll">
+                        <div class="home__scroll-box">
+                            <i class="ri-arrow-down-s-line"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+         </section>
+
+         <!--==================== ABOUT ME====================-->
+         <section class="about section" id="about">
+            <div class="about__container container grid">
+                <h2 class="section__title-1">
+                    <span>About Me.</span>
+                </h2>
+
+                <div class="about__perfil">
+                    <div class="about__image">
+                        <img src="assets/img/Sebastian Hariman.jpg" alt="image" class="about__img">
+
+                        <div class="about__shadow"></div>
+
+                        <div class="geometric-box"></div>
+                        <img src="assets/img/random-lines.svg" alt="lines" class="about__line">
+                        <div class="about__box"></div>
+                    </div>
+                </div>
+
+                <div class="about__info">
+                    <p class="about__description">
+                        Sebastian is currently a <b>Data Science student</b> pursuing Bachelor's Degree in Bina Nusantara University. Besides Data, he also likes cat.
+                    </p>
+
+                    <div class="about__buttons">
+                        <a href="https://bit.ly/cv-sebastian" target="_blank" class="button">
+                            My CV <i class="ri-arrow-right-up-line"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/sebastianhariman/" target="_blank" class="button__ghost">
+                            <i class="ri-linkedin-box-fill"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+         </section>
+
+
+         <!--==================== PROJECTS ====================-->
+         <section class="projects section" id="projects">
+            <h2 class="section__title-1">
+                <span>Projects.</span>
+            </h2>
+
+            <div class="projects__container container grid">
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="assets/img/fetal.jpg" alt="image" class="projects__img">
+                        
+                        <a href="https://github.com/sebastianhariman/FetalHealthClassification" target="_blank" class="projects__button button">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="projects__content">
+                        <h3 class="projects__subtitle">Python</h3>
+                        <h2 class="projects__title">Fetal Health Classification</h2>
+
+                        <p class="projects__description">
+                            In this project, our team created a machine-learning model to classify the result of the Cardiotocogram test to ensure the well-being of the fetus. 
+                        </p>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="assets/img/tweet.jpg" alt="image" class="projects__img">
+                        
+                        <a href="https://github.com/sebastianhariman/Tweet-Sentiment-Classification" target="_blank" class="projects__button button">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="projects__content">
+                        <h3 class="projects__subtitle">Python</h3>
+                        <h2 class="projects__title">Tweet Sentiment Classification</h2>
+
+                        <p class="projects__description">
+                            This project is made to predict the sentiment of the empty labels of Indonesian tweet data, whether it is a love, anger, fear, joy, and sadness sentiment.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="assets/img/covid-2.jpg" alt="image" class="projects__img">
+                        
+                        <a href="https://github.com/sebastianhariman/Covid19-EDA" target="_blank" class="projects__button button">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="projects__content">
+                        <h3 class="projects__subtitle">Python</h3>
+                        <h2 class="projects__title">Covid-19 EDA</h2>
+
+                        <p class="projects__description">
+                            This project is about doing an Exploratory Data Analysis and Visualization on a time series of COVID-19 data to find insights about the pandemic.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="assets/img/stroke.jpg" alt="image" class="projects__img">
+                        
+                        <a href="https://github.com/sebastianhariman/Stroke-Prediction" target="_blank" class="projects__button button">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="projects__content">
+                        <h3 class="projects__subtitle">R Programming</h3>
+                        <h2 class="projects__title">Stroke Prediction</h2>
+
+                        <p class="projects__description">
+                            Project to find out factors that lead people for getting stroke and predict whether someone is likely to get stroke based on several parameters.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="assets/img/covid.jpg" alt="image" class="projects__img">
+                        
+                        <a href="https://public.tableau.com/views/Covid19CasesinThreeContinentsby2020/Covid19CasesinThreeContinentsby2020?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank" class="projects__button button">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="projects__content">
+                        <h3 class="projects__subtitle">Tableau</h3>
+                        <h2 class="projects__title">Covid-19 Data Visualization</h2>
+
+                        <p class="projects__description">
+                            Project about visualizing Covid-19 cases in three continents (America, Asia, and Europe) by 2020 to find insights about the pandemic using Tableau software.
+                        </p>
+                    </div>
+                </article>
+
+            </div>
+         </section>
+
+         <!--==================== OTHERS ====================-->
+         <section class="others section" id="others">
+            <h2 class="section__title-2">
+                <span>Other Works.</span>
+            </h2>
+
+            <div class="others__container container grid">
+                <article class="others__card">
+                    <div class="others__image">
+                        <img src="assets/img/TS.png" alt="image" class="others__img">
+                        
+                        <a href="https://technoscape.id/" target="_blank" class="others__button button">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="others__content">
+                        <h3 class="others__subtitle">UI/UX Design</h3>
+                        <h2 class="others__title">Hackathon 5.0</h2>
+
+                        <p class="others__description">
+                            As part of the TechnoScape 2022 UI/UX Design team, I created the design for the Hackathon 5.0 page.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="others__card">
+                    <div class="others__image">
+                        <img src="assets/img/BOS.png" alt="image" class="others__img">
+                        
+                        <a href="https://launching.bncc.net/" target="_blank" class="others__button button">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="others__content">
+                        <h3 class="others__subtitle">UI/UX Design</h3>
+                        <h2 class="others__title">BNCC Opening Season 2022</h2>
+
+                        <p class="others__description">
+                            As part of the BNCC Opening Season 2022 UI/UX Design team, I created the design for the home page and registration page.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="others__card">
+                    <div class="others__image">
+                        <img src="assets/img/FILE.png" alt="image" class="others__img">
+                        
+                        <a href="https://www.instagram.com/filemagz/" target="_blank" class="others__button button">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="others__content">
+                        <h3 class="others__subtitle">Instagram Content</h3>
+                        <h2 class="others__title">@Filemagz</h2>
+
+                        <p class="others__description">
+                            Filemagz is an online media that discusses technology trends and people lifestyle by creating creative and informative contents in multiple social media platforms, such as Instagram.
+                    </div>
+                </article>
+
+                <article class="others__card">
+                    <div class="others__image">
+                        <img src="assets/img/FILE-1.png" alt="image" class="others__img">
+                        
+                        <a href="https://www.instagram.com/filetechno/" target="_blank" class="others__button button">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="others__content">
+                        <h3 class="others__subtitle">Instagram Content</h3>
+                        <h2 class="others__title">@Filetechno</h2>
+
+                        <p class="others__description">
+                            Part of @Filemagz that aims to improve technical skills about programming for technology enthusiasts by providing various contents in Instagram.
+                        </p>
+                    </div>
+                </article>
+
+            </div>
+         </section>
+
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer__container container grid">
+            <ul class="footer__links">
+                <li>
+                    <a href="#about" class="footer__link">About Me</a>
+                </li>
+
+                <li>
+                    <a href="#projects" class="footer__link">Projects</a>
+                </li>
+
+                <li>
+                    <a href="#others" class="footer__link">Other Works</a>
+                </li>
+            </ul>
+
+            <span class="footer__copy">
+                Made w <i class="ri-heart-line"></i> by
+                <a href="">Sebastian H</a>
+            </span>
+         </div>
+      </footer>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
